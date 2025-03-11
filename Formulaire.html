@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts – Page des contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all-min-css">
+    <link rel="stylesheet" href="resolution.css">
+    <script src="https://kit.fontawesome.com/your-a=fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Bienvenue dans la page des contacts</h1>
+    <div class="menu-toggle" id="menu-toggle">
+        ☰ <!-- Icône du menu burger --> 
+    </div>        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>                         
+                <li><a href="Page CV.html">CV</a></li>
+                <li><a href="Projets et portfolio.html">Portfolio</a></li>
+                <li><a href="Formulaire.html">Contacts</a></li>
+                <li><a href="#" class="menu-burger">
+                    <i class="fas fa-hamburger"></i>
+                </a></li>
+            </ul>
+        </nav>
+    <link rel="stylesheet" href="menu_burger.css">
+    <script src="menu.js"></script>
+    <h2>Contactez-nous</h2>
+    <div class="container">
+        <form>
+            <label for="firstname">Prénom :</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <label for="link">Lien :</label>
+            <input type="url" id="link" name="link" placeholder="https://example.com">
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    <section id="contacts">
+        <h2>Nos Contacts</h2>
+        <ul class="contacts-list">
+            <li>📞 Jean Dupont - 06 12 34 56 78</li>
+            <li>📞 Marie Curie - 06 98 76 54 32</li>
+            <li>📞 Albert Einstein - 06 55 44 33 22</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mon Nom - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
