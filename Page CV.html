@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seven7&H</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/your-a=fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <section class="top-page">
+        <script>
+            function fixViewport() {
+                let viewport = document.querySelector("meta[name=viewport]");
+                if (!viewport) {
+                    viewport = document.createElement("meta");
+                    viewport.name = "viewport";
+                    document.head.appendChild(viewport);
+                }
+                viewport.content = "width=device-width, initial-scale=1";
+            }
+        
+            window.onload = fixViewport;
+            window.onresize = fixViewport;
+        </script>     
+    <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle">
+        ☰ <!-- Icône du menu burger -->
+    </div>    
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Page CV.html">Mon Cv</a></li>
+                <li><a href="Projets et portfolio.html">Mon Portfolio</a></li>
+                <li><a href="Formulaire.html">Contacts</a></li>
+                <li><a href="Menu Burger.html" class="menu-burger">
+                    <i class="fas fa-hamburger"></i>
+                </a></li>
+            </ul>
+        </nav>
+    <link rel="stylesheet" href="menu_burger.css">
+    <script src="menu.js"></script>        
+    </section>
+    <h2>CV</h2>
+    <div class="menu-container">
+        <link rel="stylesheet" href="url.css">
+        <link rel="stylesheet" href="Bouton.css">
+        <div class="menu">       
+            <a href="CV-ANTHONY-PIVETEAU.pdf" class="btn top-left">CV 1</a>
+            <a href="CV contrat en stage.pdf" class="btn top-right">CV 2</a>
+            <a href="#" class="btn bottom-left">CV 3</a>
+            <a href="#" class="btn bottom-right">CV 4</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Connexion Sécurisée</h2>
+        <form id="loginForm">
+            <input type="hidden" id="crsf_token">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Se connecter</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="Sécurisation.js"></script>               
+</body>
+</html>
