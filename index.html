@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seven7&H</title>
+    <style>
+        nav.nav li a {
+            color: rgb(11, 1, 8);
+            text-decoration: none;
+            font-weight: 900;
+        }
+    </style>
 </head>
 <body> 
     <section class="top-page"> 
         <header class="header">
-            <img src="télécharger-removebg-preview.png" alt="">
+            <img src="télécharger-removebg-preview.png" alt="Logo Seven7&H">
             <nav class="nav">
-                <li><a href="index.html"> Accueil</a></li>
-                <li><a href="Page CV.html">Mon Cv</a></li>
-                <li><a href="Projets et portfolio.html">Mon Portfolio</a></li>
-                <li><a href="Formulaire.html">Contacts</a></li>
+                <ul>
+                    <li><a href="index.html"> Accueil</a></li>
+                    <li><a href="Page CV.html">Mon Cv</a></li>
+                    <li><a href="Projets et portfolio.html">Mon Portfolio</a></li>
+                    <li><a href="Formulaire.html">Contacts</a></li>
+                </ul>
             </nav>
-            <style>
-                nav.nav li a{
-                    color: rgb(11, 1, 8);
-                    text-decoration: none;
-                    font-weight: 900;
-                }
-            </style>
         </header>
         <div class="landing-page">
             <h1 class="big-title">Seven7 la qualité et la performance appartiennent aux meilleurs</h1>
         </div>
     </section>
-   <footer class="footer">
-    <p>&copy;seven7 2025</p>
-   </footer> 
-    <!-- premiere page -->
-   <div class="page" id="page1">
-   <div class="content"> page1 </div>
-   </div> 
-   <!-- deuxieme page -->
-   <div class="page" id="page2"> 
-    <div class="content"> page 2</div>
-   </div>
-   <!--Troisieme page -->
-   <div class="page" id="page3"> 
-    <div class="content">page 3</div>
+
+    <footer class="footer">
+        <p>&copy;seven7 2025</p>
+    </footer> 
+
+    <!-- Premiere page -->
+    <div class="page" id="page1">
+        <div class="content"> page1 </div>
+    </div> 
+
+    <!-- Deuxieme page -->
+    <div class="page" id="page2">  
+        <div class="content"> page 2</div>
+    </div>
+
+    <!--Troisieme page -->
+    <div class="page" id="page3"> 
+        <div class="content">page 3</div>
+    </div>
+    
     <script>
-        // Definir la fonction pour activer l'animation de slideIn //
+        // Definir la fonction pour activer l'animation de slideIn 
         function goToNexpage (currentPageId, nextPageId ) {
             const currentPage = Document.getElementById(currentPageId);
             const nextPage = document.getElementById(nextPageId)
              
-            // ajout de l'animation de transition a la page suivante //
-            setTimeout(() => {
-                currentPage.classList.remove('visible');
-                nextPage.classList.remove('visible');
-            }, 100);
+            // ajout de l'animation de transition a la page suivante 
+            currentPage.classList.remove('visible');
+            nextPage.classList.remove('visible');
         }
 
-        // Passer de la page 1 a la page 2 apres 2secondes//
-        setTimeout(()=> {
+        // Passer de la page 1 a la page 2 apres 2secondes
+        setTimeout(() => {
             goToNexpage('page1','page2')
         }, 2000);
 
-        // passer de la page 2 a la page 
-
+        // passer de la page 2 a la page
+        setTimeout (() => {
+            goToNexpage('page2', 'page3');
+        }, 4000);
     </script>
-   </div>
 </body>
-
 </html>
