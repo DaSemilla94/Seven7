@@ -1,0 +1,44 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    background-color: darkblue;
+}
+
+#top-left { top: -50px; left: -50px; }
+#top-right { top: -50px; right: -50px; }
+#bottom-left { bottom: -50px; left: -50px; }
+#bottom-right { bottom: -50px; right: -50px; }
+
+
+#pdfContainer {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+
