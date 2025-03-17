@@ -1,6 +1,6 @@
 /* Section principale */
 section.top-page {
-    background: url('../Ultimate Guide to Migrating Your Site from HTTP to HTTPS.jpg') no-repeat center center;
+    background: url('Ultimate Guide to Migrating Your Site from HTTP to HTTPS.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     padding: 25px;
