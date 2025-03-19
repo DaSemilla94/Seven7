@@ -1,2 +1,3 @@
 title: Mon Site Jekyll
-theme: jekyll-theme-primer
+description: Un site généré avec Jekyll
+theme: minima
