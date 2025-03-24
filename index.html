@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seven7&H</title>
     <link rel="stylesheet" href="menu_burger2.css">
-    <script src"menu2.js"></script>
+    
 </head>
 <body> 
     
@@ -48,26 +48,6 @@
         <div class="content">page 3</div>
     </div>
     
-    <script>
-        // Definir la fonction pour activer l'animation de slideIn 
-        function goToNexpage (currentPageId, nextPageId ) {
-            const currentPage = Document.getElementById(currentPageId);
-            const nextPage = document.getElementById(nextPageId)
-             
-            // ajout de l'animation de transition a la page suivante 
-            currentPage.classList.remove('visible');
-            nextPage.classList.remove('visible');
-        }
-
-        // Passer de la page 1 a la page 2 apres 2secondes
-        setTimeout(() => {
-            goToNexpage('page1','page2')
-        }, 2000);
-
-        // passer de la page 2 a la page
-        setTimeout (() => {
-            goToNexpage('page2', 'page3');
-        }, 4000);
-    </script>
+    <script src"menu2.js"></script>
 </body>
 </html>
