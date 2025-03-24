@@ -113,17 +113,25 @@ button:hover {
 }
 
 /* Mode mobile : menu en colonne */
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 50px;
     }
 
-    
-
-    nav ul.active {
-        display: flex;
-        max-height: 500px;
+    .menu a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        border-bottm: 1px solid #444;
     }
+}
+
+/* Décalage du contenu pour éviter qu'il soit sous le menu */
+.content {
+    margin-top: 70px;
+    padding: 20px;
 }
 
 @keyframes slideInRight {
