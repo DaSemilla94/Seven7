@@ -118,10 +118,7 @@ button:hover {
         display: block;
     }
 
-    nav ul {
-        display: none;
-        max-height: 0;
-    }
+    
 
     nav ul.active {
         display: flex;
