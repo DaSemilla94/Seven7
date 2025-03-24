@@ -55,8 +55,8 @@ html, body {
 
 .nav ul li a {
     text-decoration: none;
-    font-size: 18px;
-    display: block;
+    color: white;
+    padding: 10px;
 }
 
 /* Mode mobile : menu en colonne */
