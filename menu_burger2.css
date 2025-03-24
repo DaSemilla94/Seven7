@@ -40,7 +40,6 @@ nav ul {
     box-sizing: border-box;
     max-height: 0;
     overflow: hidden;
-    transition: slide-in-right 0.5 ease-out;
 }
 
 nav ul li {
@@ -51,12 +50,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     display: block;
-}
-
-
-/* Afficher les éléments du menu quand la classe 'active' est ajoutée */
-nav ul.active {
-    display: flex;
 }
 
 .container {
@@ -114,17 +107,21 @@ button:hover {
 
 /* Mode mobile : menu en colonne */
 @media screen and (max-width: 768px) {
-    .menu {
+    nav ul {
         flex-direction: column;
-        height: 100vh;
+        width: 100%;
         padding-top: 50px;
     }
 
-    .menu a {
-        padding: 15px;
+    nav ul li {
         width: 100%;
         text-align: center;
-        border-bottm: 1px solid #444;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid #444;
     }
 }
 
