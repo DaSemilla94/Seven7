@@ -57,3 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let element = document.querySelector(".page");
     element.classList.add("slide-in-right");
 });
+document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector(".nav").classlist.toggle("active");
+});
