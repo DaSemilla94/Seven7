@@ -23,7 +23,7 @@ html, body {
     z-index: 500;
 }
 
-#logo {
+.logo {
     height: 50px;
     width: auto;
 }
