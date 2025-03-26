@@ -13,7 +13,6 @@ html, body {
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     font-family: 'Times New Roman', Times, serif;
-    color: black;
     position: relative;
     z-index: 0;
 }
@@ -39,7 +38,7 @@ html, body {
     cursor: pointer;
     display: block;
     border: none;
-    color: white;
+    color: black;
     background: none;
 }
 
@@ -58,7 +57,7 @@ html, body {
 
 .nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
