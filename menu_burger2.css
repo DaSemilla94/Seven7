@@ -8,7 +8,7 @@ html, body {
     width: 100vw;
     height: 100vh; /* Assure que le fond prend toute la hauteur de la page */
     overflow-x: hidden;
-    background-image: url('/Ultimate Guide to Migrating Your Site from HTTP to HTTPS.jpg'); /* Remplace 'beackground.jpg' par le chemin de ton image */
+    background-image: url('../Ultimate Guide to Migrating Your Site from HTTP to HTTPS.jpg'); /* Remplace 'beackground.jpg' par le chemin de ton image */
     background-size: cover; /* Ajuste l'image pour couvrir toute la page */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
