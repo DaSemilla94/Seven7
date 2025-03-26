@@ -90,3 +90,13 @@ html, body {
     margin-top: 70px;
     padding: 20px;
 }
+
+.footer {
+    position: fixed; /* Fixe la position à l'écran */
+    bottom: 0; /* Place l'élément au bas de la page */
+    width: 100%; /* S'assure que la barre couvre toute la largeur */
+    text-align: center; /* Centre le texte */
+    padding: 10px 0; /* Optionnel : espace autour du texte */
+    font-size: 14px; /* Optionnel : taille de la police */
+}
+
