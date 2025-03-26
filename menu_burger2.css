@@ -23,8 +23,9 @@ html, body {
     z-index: 500;
 }
 
-img {
+.logo {
     height: 10px;
+    width: auto;
 }
 
 .menu-toggle {
