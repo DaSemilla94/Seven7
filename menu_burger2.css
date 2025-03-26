@@ -98,5 +98,6 @@ html, body {
     text-align: center; /* Centre le texte */
     padding: 10px 0; /* Optionnel : espace autour du texte */
     font-size: 14px; /* Optionnel : taille de la police */
+    color: rgb(255, 0, 255);
 }
 
