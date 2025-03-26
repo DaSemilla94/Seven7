@@ -12,7 +12,6 @@ html, body {
     background-size: cover; /* Ajuste l'image pour couvrir toute la page */
     background-position: center; /* Centre l'image */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     position: relative;
